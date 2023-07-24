@@ -1,0 +1,32 @@
+Before taking any project we must consider data and business problems are been considered.
+
+Data collection-->data understanding-->data visulasation-->data pre-processing-->model building-->model evaluation-->deploy
+
+To evaluate the machine learing algorithm we must have
+
+1)pandas
+2)numpy
+3)Matplatlibity
+4)Sklearn
+
+Types of data algorithms:
+ 
+1)Supervised--> It refers to the independent and target features which are used to predict the future instances.
+
+2)Unsupervised--> It refers the independent features are present but there are no labelled features which the independent features are grouped to get appropiate result.
+
+Types of business problems:
+
+Classification--> It estimates the supervised algorithms which will work on labelled results which are discrete(not numbers)
+
+Regression--> It refers to the supervised algorithms which will work on labelled features which are continous(numbers) and changes may occur continously like predicting the temperature 
+tomorrow.
+
+Clustering-->It will group the independent targets of data sets to predict the instance.    
+
+File handling in python:
+
+x--create
+w--write(it will create and write the content into file if file is not created)
+if we use w mode the old content will be overridden with new content
+a--append it is used to add the data to previous data without losing the data.
